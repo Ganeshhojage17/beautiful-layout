@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.header h1{
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px rgb(94, 90, 90);
+    cursor: pointer;
+}
+.header{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    padding: 20px 30px;
+}
+/* navbar portion */
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 20px;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+}
+.topnav a:hover{
+    background-color: lightgray;
+    color: #333;
+}
+
+.left-col{
+    float: left;
+    width: 75%;
+}
+.card{
+    background-color: white; 
+    padding: 20px;
+    margin-top: 20px;
+}
+.fakeimg{
+    background-color: lightgray;
+    padding: 30px;
+
+}
+.right-col{
+    float: right;
+    width: 23%;
+    
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer{
+    width: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+    }
